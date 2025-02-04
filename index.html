@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS_HW3</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <!-- https://akanksha-neogcamp.notion.site/CSS_HW3-a7881d77ca8444fdbf64020a43fdbca2 -->
+
+      <!-- Create a 300X300 px container with a box of 100x100px inside it. Make the UI as shown below. -->
+    <section>
+    
+      <h2>------Exercise 1------</h2>
+    
+    <div class="outer-box-1">
+      <div class="inside-box-1"></div>
+    </div>
+  </section>
+    <br />
+
+    <!-- Create a 300X300 px container with a centered box of 100x100px inside it. -->
+
+    <section>
+      <h2>------Exercise 2------</h2>
+    
+    <div class="outer-box-2">
+      <div class="inside-box-2"></div>
+    </div>
+  </section>
+    <br />
+
+    <!-- Make a responsive navbar such that each item take 1 proportion on the entire space and the items wrap on reducing the screen size. -->
+
+    <section>
+      <h2>------Exercise 3------</h2>
+
+    <nav>
+      <ul class="navbar" style="padding-inline-start: 0px">
+        <li class="nav-items">home</li>
+        <li class="nav-items">about</li>
+        <li class="nav-items">products</li>
+        <li class="nav-items">cart</li>
+        <li class="nav-items">wishlist</li>
+      </ul>
+    </nav>
+  </section>
+    <br />
+
+<!-- Create a profile card as shown below. Width of the card is 200px. -->
+
+    <section>
+      <h2>------Exercise 4------</h2>
+   
+    <div class="outside-box-4">
+      <div class="inside-circle">150x150</div>
+      <div>
+        <div class="next-line">
+          <h4>John Doe</h4>
+          <p>Web Developer</p>
+        </div>
+      </div>
+    </div>
+    <br />
+  </section>
+<!-- 
+  Create a course card like below using CSS flexbox. Use the placeholder for image: https://via.placeholder.com/150 -->
+
+    <section>
+      <h2>------Exercise 5------</h2>
+
+      <div class="outside-box-5">
+        <div class="card">
+          <h2 style="display: flex; justify-content: center">
+            FULL STACK COURSE
+          </h2>
+          <img src="https://placehold.co/150x150" alt="image" />
+          <p>
+            Discover the neoG Full Stack Development Course, offering expert-led
+            training in MERN stack. Build real-world projects and boots your web
+            development career.
+          </p>
+          <button
+            style="
+              background-color: antiquewhite;
+              padding: 10px;
+              border: hidden;
+            "
+          >
+            Enroll Now
+          </button>
+        </div>
+      </div>
+    </section>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!-- Create a product card like below. Maximum width of the product card in 400px. -->
+
+    <section>
+      <h2>------Exercise 6------</h2>
+      <div class="product-row">
+        <div class="product-image">
+          <img src="https://placehold.co/150x150" alt="image" />
+        </div>
+        <div class="product-infor">
+          <h2>Product Name</h2>
+          <p>
+            Product description goes here. It's a brief summary of the product
+            features.
+          </p>
+          <button class="product-btn">Buy Now</button>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Create a testimonial card as shown below. Maximum width of the card is 400px. -->
+
+    <section>
+      <h2>------Exercise 7------</h2>
+      <div class="testimonial-card">
+        <p>"This product is amazing! Highly recommended."</p>
+        <div class="flex">
+        <div class="testimonial-image">
+          <img src="https://placehold.co/50x50"  />
+        </div>
+        <p>John Doe</p>
+      </div>
+      </div>
+    </section>
+    
+    <!-- Create a pricing card as shown below. Card width is 200px. -->
+
+    <section>
+      <h2>------Exercise 8------</h2>
+      <div class="pricing-product-card">
+        <div class="pricing-card">
+          <h3>BASIC</h3>
+          <h1 class="price">$10.99/month</h1>
+
+          <p
+            class="info"
+            style="display: flex; justify-content: center; align-items: center"
+          >
+            Our basic plan is perfect for small teams.
+          </p>
+          <ul class="info-list">
+            <li class="info-items">5 Projects</li>
+            <li class="info-items">10GB Storage</li>
+            <li class="info-items">Priority Support</li>
+            <li class="info-items">Unlimited Users</li>
+          </ul>
+          <a href="/" class="link btn-plan">Buy Plan</a>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- Create a row of pricing cards as shown below. Cards width are 200px each. On reducing the screen size, cards should wrap one below the other.  -->
+
+    <section>
+      <h2>------Exercise 9------</h2>
+      <div class="products-row">
+        <div class="pricing-card">
+          <h3>BASIC</h3>
+          <p class="price">$10.99/month</p>
+
+          <p
+            class="info"
+            style="display: flex; justify-content: center; align-items: center"
+          >
+            Our basic plan is perfect for small teams.
+          </p>
+          <ul class="info-list">
+            <li class="info-items">5 Projects</li>
+            <li class="info-items">10GB Storage</li>
+            <li class="info-items">Priority Support</li>
+            <li class="info-items">Unlimited Users</li>
+          </ul>
+          <a href="/" class="link btn-plan">Buy Plan</a>
+        </div>
+        <div class="pricing-card">
+          <h3>SILVER</h3>
+          <p class="price">$14.99/month</p>
+
+          <p class="info">
+            Our silver plan is perfect for small to medium size teams.
+          </p>
+          <ul class="info-list">
+            <li class="info-items">10 Projects</li>
+            <li class="info-items">15GB Storage</li>
+            <li class="info-items">Priority Support</li>
+            <li class="info-items">Unlimited Users</li>
+          </ul>
+          <a href="/" class="link btn-plan">Buy Plan</a>
+        </div>
+        <div class="pricing-card">
+          <h3>PREMIUM</h3>
+          <p class="price">$20.99/month</p>
+
+          <p class="info">Our premium plan is perfect for big teams.</p>
+          <ul class="info-list">
+            <li class="info-items">30 Projects</li>
+            <li class="info-items">20GB Storage</li>
+            <li class="info-items">Priority Support</li>
+            <li class="info-items">Unlimited Users</li>
+          </ul>
+          <a href="/" class="link btn-plan">Buy Plan</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Create a footer as shown below. Minimum width of each footer column should be 200px. On reducing the screen size the the columns should wrap one below the other.
+     -->
+    <section>
+      <h2>------Exercise 10------</h2>
+      <footer>
+        <div class="row">
+          <div class="col">
+            <ul class="nava">
+              <li><a class="link nava-items" href="/">Privacy policy</a></li>
+              <li><a class="link nava-items" href="/">Terms</a></li>
+              <li><a class="link nava-items" href="/">Legal</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul class="nava">
+              <li><a class="link nava-items" href="/">About</a></li>
+              <li><a class="link nava-items" href="/">Team</a></li>
+              <li><a class="link nava-items" href="/">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul class="nava">
+              <li><a class="link nava-items" href="/">Photos</a></li>
+              <li><a class="link nava-items" href="/">Testimonial</a></li>
+            </ul>
+          </div>
+        </div>
+        <p>2024 Design Studio. All rights reserved.</p>
+      </footer>
+    </section>
+  </body>
+</html>
